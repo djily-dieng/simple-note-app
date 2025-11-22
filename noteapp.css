@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background: lightblue;
+}
+h1 {
+  text-align: center;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+.add-btn {
+  background-color: blueviolet;
+  height: 100px;
+  width: 2em;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: bold;
+}
+.remove-btn {
+  background-color: red;
+  height: 100px;
+  width: 2em;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: bold;
+}
+.boxApp {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  gap: 40px;
+  justify-content: center;
+  padding: 50px;
+}
